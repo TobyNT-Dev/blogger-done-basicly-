@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+
+nav {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    top: 0;
+    position: sticky;
+    border-bottom: #159eff solid 3px;
+    height: 3vw;
+    li {
+        font-family: 'Rubik';
+        list-style-type: none;
+        float: right;
+        margin: 0 2vw;
+        padding: 0.8vw 1vw;
+        transition: 300ms;
+        font-size: 1.2vw;
+        a:-webkit-any-link {
+            color: #159eff;
+        }
+        :Link {
+            text-decoration: none;
+        }
+        &:hover {
+            transition: 300ms;
+            background-color: #159eff;
+            :Link {
+                transition: 300ms;
+            }
+            a:-webkit-any-link {
+                color: white;
+            }
+        }
+    }
+}
+.sidebar {
+    z-index: 11;
+    top: 3vw;
+    position: fixed;
+    width: 20%;
+    background-color: #FBFBFB;
+    border-right: #159eff solid 3px;
+    padding-bottom: auto;
+    height: 100vh;
+    img {
+        margin-top: -2vw;
+        height: 5vw;
+        background-color: #FBFBFB;
+        padding: 0 2vw 0 1vw;
+    }
+    .side-header {
+        font-size: 1.5vw;
+        color: #159eff;
+        font-weight: 600;
+        margin: 1vw 0.5vw;
+        font-family: 'Rubik';
+    }
+    .sidebar-data {
+        .sdata {
+            border-radius: 4px;
+            border-bottom:#159dff solid 2px;
+            font-size: 1.6vw;
+            color: #159eff;
+            font-weight: 300;
+            font-family: 'Rubik';
+            margin: 1vw 0.5vw;
+        }
+    }
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.modal-container {
+    height: max-content;
+    position: relative;
+    overflow: hidden;
+    transition: 300ms;
+    span {
+        margin-left: 62vw;
+        bottom: -1vw;
+        position: relative;
+        background-color: #ffffff;
+        padding: 0.5vw 0.75vw;
+        font-size: 1.5vw;
+        border-radius: 3vw;
+        z-index: 100;
+        cursor: pointer;
+        color: #159eff;
+        &:hover {
+            background-color: #159eff;
+            color: #ffffff;
+            transition: 300ms;
+        }
+    }
+    .grid-container {
+        height: auto;
+        transition: 300ms;
+        z-index: 5;
+        max-width: 80vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        img {
+            margin: 0.5vw auto;
+            width: 80%;
+        }
+    }
+}
+.modal-off {
+    overflow: hidden;
+    height: 0;
+}
+article {
+    margin-top: 3vw;
+    border-top: #159eff solid 3px;
+    max-width: 70vw;
+    margin-left: 25%;
+    margin-right: auto;
+    padding-bottom: 3vw;
+    background-color: #ffffff;
+    height: auto;
+    .text-img-container {
+        text-align: center;
+        .post-img {
+            width: 35vw;
+            float: right;
+            margin: 0 2vw 1vw 2vw;
+        }
+        .p-description {
+            text-align: justify;
+            p {
+                text-align: justify;
+                margin: 0.9vw 2vw;
+                font-family: 'Rubik';
+                font-weight: 300;
+            }
+        }
+    }
+    h2 {
+        padding-top: 1vw;
+        margin: 1vw 3vw;
+        font-family: 'Rubik';
+        font-size: 2.3vw;
+        color: #159eff;
+        font-weight: 300;
+        font-style: italic;
+        width: 50vw;
+    }
+    .p-author {
+        margin-left: 3vw;
+        font-family: 'Rubik';
+        font-weight: 300;
+        color: rgb(56, 56, 56);
+    }
+    .p-date {
+        margin-left: 3vw;
+        font-family: 'Rubik';
+        font-weight: 300;
+        color: rgb(56, 56, 56);
+    }
+    button {
+        margin: 1vw 45%;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        padding: 0.3vw;
+        color: #159eff;
+        font-family: 'Rubik';
+        cursor: pointer;
+        width: 10vw;
+        display: block;
+        transition: 300ms;
+        &:hover {
+            background-color: #159eff;
+            color: #ffffff;
+            transition: 300ms;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap");
+.homeh {
+  margin: 2vw 10vw -2vw 25vw;
+  display: block;
+  color: #159eff;
+  font-weight: 400;
+  font-family: "Rubik";
+  font-size: 2.5vw;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.home-info {
+  margin: 3vw 0 0 25vw;
+  max-width: 65%;
+  background-color: white;
+  padding: 2vw 2vw;
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 1vw;
+}

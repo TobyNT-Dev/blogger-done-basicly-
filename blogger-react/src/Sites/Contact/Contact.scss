@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+
+.contact-h {
+    margin: 2vw 10vw -2vw 40vw;
+    display: block;
+    color: #159eff;
+    font-weight: 400;
+    font-family: 'Rubik';
+    font-size: 2.5vw;
+}
+.form-con {
+    border-top: #159eff solid 3px;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    background-color: white;
+    max-width: 40%;
+    margin-left: 40vw;
+    padding-bottom: 5vw;
+    .form-input {
+        display: block;
+        width: 33%;
+        margin-left: 33%;
+        margin-top: 1vw;
+        font-size: 1vw;
+        font-family: 'Rubik';
+        border: none;
+        background-color: rgb(240, 240, 240);
+    }
+    :nth-child(3) {
+        border: none;
+        display: block;
+        width: 33%;
+        margin-left: 33%;
+        margin-top: 1vw;
+        height: 4vw;
+        font-size: 1vw;
+        font-family: 'Rubik';
+        background-color: rgb(240, 240, 240);
+    }
+    .form-button {
+        display: block;
+        width: 18%;
+        margin-left: 41%;
+        margin-top: 1vw;
+        height: 2vw;
+        font-size: 1vw;
+        border: none;
+        font-family: 'Rubik';
+        cursor: pointer;
+        background-color: rgb(240, 240, 240);
+        color: #159eff;
+        transition: 300ms;
+        &:hover {
+            background-color: #159eff;
+            color: white;
+            transition: 300ms;
+        }
+    }
+}
