@@ -12,7 +12,7 @@
   transition: 300ms;
 }
 .modal-container span {
-  margin-left: 62vw;
+  margin-left: 65vw;
   bottom: -1vw;
   position: relative;
   background-color: #ffffff;
@@ -49,12 +49,13 @@
 article {
   margin-top: 3vw;
   border-top: #2ec4b6 solid 3px;
-  max-width: 70vw;
-  margin-left: 25%;
+  max-width: 75vw;
+  margin-left: 21.5%;
   margin-right: auto;
   padding-bottom: 3vw;
   background-color: #ffffff;
   height: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 20px;
 }
 article .text-img-container {
   text-align: center;
@@ -101,7 +102,7 @@ article button {
   background-color: rgb(255, 255, 255);
   border: none;
   padding: 0.3vw;
-  color: #2ec4b6;
+  color: #13b79f;
   font-family: "Montserrat";
   cursor: pointer;
   width: 10vw;

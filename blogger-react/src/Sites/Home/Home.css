@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(240, 240, 240);
+  background-color: #c8eee9;
 }
 
 .home-info {
@@ -20,4 +20,5 @@ body {
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 20px;
 }

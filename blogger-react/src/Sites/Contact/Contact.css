@@ -16,6 +16,7 @@
   max-width: 40%;
   margin-left: 40vw;
   padding-bottom: 5vw;
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 20px;
 }
 .form-con .form-input {
   display: block;
