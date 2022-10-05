@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
 
 nav {
     z-index: 10;
@@ -6,25 +6,26 @@ nav {
     backdrop-filter: blur(15px);
     top: 0;
     position: sticky;
-    border-bottom: #159eff solid 3px;
+    border-bottom: #13b79f solid 3px;
     height: 3vw;
     li {
-        font-family: 'Rubik';
+        font-family: 'Montserrat';
         list-style-type: none;
         float: right;
         margin: 0 2vw;
         padding: 0.8vw 1vw;
         transition: 300ms;
         font-size: 1.2vw;
+        font-weight: 600;
         a:-webkit-any-link {
-            color: #159eff;
+            color: #13b79f;
         }
         :Link {
             text-decoration: none;
         }
         &:hover {
             transition: 300ms;
-            background-color: #159eff;
+            background-color: #13b79f;
             :Link {
                 transition: 300ms;
             }
@@ -40,31 +41,32 @@ nav {
     position: fixed;
     width: 20%;
     background-color: #FBFBFB;
-    border-right: #159eff solid 3px;
+    // border-right: #2ec4b6 solid 3px;
     padding-bottom: auto;
     height: 100vh;
     img {
+        margin-left: 3.5vw;
         margin-top: -2vw;
-        height: 5vw;
+        height: 6vw;
         background-color: #FBFBFB;
         padding: 0 2vw 0 1vw;
     }
     .side-header {
         font-size: 1.5vw;
-        color: #159eff;
-        font-weight: 600;
+        color: #13b79f;
+        font-weight: 700;
         margin: 1vw 0.5vw;
-        font-family: 'Rubik';
+        font-family: 'Montserrat';
     }
     .sidebar-data {
         .sdata {
             border-radius: 4px;
-            border-bottom:#159dff solid 2px;
-            font-size: 1.6vw;
-            color: #159eff;
-            font-weight: 300;
-            font-family: 'Rubik';
-            margin: 1vw 0.5vw;
+            border-bottom:#13b79ebc solid 3px;
+            font-size: 1.3vw;
+            color: #292929;
+            font-weight: 500;
+            font-family: 'Montserrat';
+            margin: 1vw 0.4vw;
         }
     }
 }
