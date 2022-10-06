@@ -40,16 +40,16 @@ const [itemClicked, setItemClicked] = useState()
                             console.log(e.target.id)
                             setItemClicked(e.target.id)
                         }}>View more images</button>
-                        {/* checks for the id value, if available, open modal with remaining images */}
+                        {/* checks the individual id, and gets the images - and switches classes on the image container */}
                         <div id={post.id} className={itemClicked == post.id ? "modal-container" : "modal-off"}>
-                            {/* Clears the id value, to hide the remaining images */}
+                            {/* Clears the id value, which makes the line above hide the images */}
                         <span onClick={() => {setItemClicked()}}>✖</span>
                         <div className="grid-container">
-                            {/* maps the remaining images into the container which can be toggled, and maps using the post variable from earlier */}
+                            {/* maps the remaining images into the container, and maps using the post variable from earlier */}
                     {post.attributes.images.data.map((post, idz) => {
                         return(
                             <>
-                            {/* Gets individual images which doesent have an id value of 0 */}
+                            {/* Gets individual images which doesent have an id value of 0 so first image isnt shown again */}
                             {idz != 0 ? <img src={"http://localhost:1337" + post.attributes.url} alt="Image" /> : ""}
                             </>
                         )
